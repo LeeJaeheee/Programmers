@@ -7,4 +7,4 @@ func solution(_ n:Int) -> Int {
     return sqrt * sqrt == n ? 1 : 2
 }
 
-// (squareRoot) https://developer.apple.com/documentation/swift/double/squareroot()
+// (squareRoot) https://developer.apple.com/documentation/swift/double/squareroot() 
