@@ -1,6 +1,6 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/12909
 
-/* 효율성 테스트 시간초과
+/* 효율성 테스트 시간초과 
 import Foundation
 
 func solution(_ s:String) -> Bool
