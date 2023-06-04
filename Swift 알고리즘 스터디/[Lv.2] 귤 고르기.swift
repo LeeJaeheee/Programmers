@@ -7,6 +7,9 @@ func solution(_ k:Int, _ tangerine:[Int]) -> Int {
     for t in tangerine {
         dict[t, default: 0] += 1
     }
+    if tangerine.count == k {
+        return dict.count
+    }
     var result = 0
     var count = 0
     for d in dict.values.sorted(by: > ) {
