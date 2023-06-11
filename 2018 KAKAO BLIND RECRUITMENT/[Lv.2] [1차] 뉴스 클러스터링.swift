@@ -24,3 +24,6 @@ func solution(_ str1:String, _ str2:String) -> Int {
     
     return iCount == 0 && uCount == 0 ? 65536 : Int(Double(iCount) / Double(uCount) * 65536)
 }
+
+// (intersection) https://developer.apple.com/documentation/swift/set/intersection(_:)-6uts9
+// (union) https://developer.apple.com/documentation/swift/set/union(_:)
